@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cities</string>
+    <string name="sort_by_gps">Sort by closest city</string>
+</resources>
