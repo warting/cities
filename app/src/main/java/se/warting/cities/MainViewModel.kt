@@ -81,7 +81,9 @@ class MainViewModel : ViewModel() {
                     )
                 }
             } catch (e: IOException) {
-
+                _sessionState.value = _sessionState.value.copy(
+                    cities = CitiesState.Failed("Unknown Error")
+                )
             }
 
         }
